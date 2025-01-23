@@ -1,1 +1,1 @@
-# VaxMe
+# Vaxify
