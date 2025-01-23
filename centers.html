@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Centers Near Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="centers.html"><i class="fas fa-map-marker-alt"></i> Vaccination Centers</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact Us</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Vaccination Centers Near Me</h1>
+        <p>Find the nearest vaccination centers.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Locate Vaccination Centers</h2>
+            <!-- Space for Google Maps API -->
+            <div id="map"></div>
+            <!-- Add your "Search Vaccination Centers Near Me" link here -->
+            <p>Add your search link here.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Vaccination Reminder. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
